@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+.logo img {
+  margin-right: 12px;
+}
+.logo span {
+  color: MediumAquamarine;
+}
+.header nav {
+  padding-right: 40px;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+nav span a {
+  color: black;
+  text-decoration: underline;
+}
+.content {
+  display: flex;
+  width: 1300px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+  border: 1px solid black;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  border: 1px solid black;
+}
+.column.large {
+  width: 630px;
+  }
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+.lead-story .imagecon {
+  background-image: url("../images/img-story-main.png");
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+.imagecon {
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  height: 300px;
+}
+.story1 .imagecon {
+  background-image: url("../images/img-story-2.png");
+  width: 630px;
+  margin-top: 0;
+  font-size: 30px;
+  text-align: center;
+}
+.story2 .imagecon {
+  background-image: url("../images/img-story-3.png");
+  width: 630px;
+  margin-top: 0;
+  font-size: 30px;
+  text-align: center;
+}
